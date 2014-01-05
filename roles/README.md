@@ -357,6 +357,16 @@ Description: "Installs and configures a (non-HA) Nova Controller."
     role[nova-vncproxy]
     role[horizon-server]
 
+_single-designate-pdns_
+-----------------------
+Description: "Designate with PowerDNS (non-HA)"
+
+### run_list
+    role[base]
+
+### Dependencies
+    Expects nodes with role[mysql-master] and role[rabbitmq-server] exist
+
 _swift-account-server_
 ----------------------
 
