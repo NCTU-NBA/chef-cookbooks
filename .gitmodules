@@ -157,3 +157,6 @@
 [submodule "cookbooks/designate"]
 	path = cookbooks/designate
 	url = https://github.com/NCTU-NBA/designate-cookbook.git
+[submodule "cookbooks/pdns"]
+	path = cookbooks/pdns
+	url = https://github.com/opscode-cookbooks/pdns
